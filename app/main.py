@@ -12,7 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-          "https://employee-management-system.vercel.app"
+          "https://employee-frontend-cyan-eta.vercel.app/"
     ],
     allow_credentials=True,
     allow_methods=["*"],
